@@ -1,0 +1,216 @@
+@charset "utf-8";
+/*
+Theme Name: Diego Téliz
+Author: Diego Téliz - contacto@diegoteliz.com
+Author URI: http://aero.com.uy
+Version: 2.0
+*/
+
+/* ==============================================================
+                        
+                        -- CONTENTS --
+
+
+1.	Reset default browser CSS
+
+
+2.	General
+
+	- General tags
+	- General classes
+	- Structure
+	
+
+============================================================== */
+
+
+/* 1. Reset default browser CSS
+-------------------------------------------------------------- */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, figure, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	border: 0;
+	font-family: inherit;
+	font-size: 100%;
+	font-style: inherit;
+	font-weight: inherit;
+	margin: 0;
+	outline: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+:focus {
+	outline: 0;
+}
+body {
+	background: #FFF;
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+}
+caption, th, td {
+	font-weight: normal;
+	text-align: left;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: "";
+}
+blockquote, q {
+	quotes: "" "";
+}
+a img {
+	border: 0;
+}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+
+/* 2. General
+-------------------------------------------------------------- */
+
+/* General tags */
+body {
+	font: 400 14px 'Open Sans', serif;
+	margin: 0;
+	-webkit-font-smoothing: antialiased;
+}
+h1 {
+
+}
+
+/* General classes */
+
+/* Structure */
+#overlay {
+	background: rgba(0, 0, 0, 0.2);
+	height: 100%;
+	position: absolute;
+	opacity: 0;
+	transition: all 1s ease;
+	-o-transition: all 1s ease;
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	width: 100%;
+	z-index: 4;
+}
+#dinamic-content {
+	background: #0F0;
+	height: 100%;
+	left: 135px;
+	position: absolute;
+	right: 0;
+	transition: all 1s ease;
+	-o-transition: all 1s ease;
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+}
+
+/*.wrapper {
+	margin: 0 auto;
+	position: absolute;
+	right: 0;
+	left: 0;
+	width: 1024px;
+}*/
+
+
+/* 3. Main menu
+-------------------------------------------------------------- */
+#main-menu {
+	background: #222;
+	box-shadow: 1px 2px 6px 0 rgba(0, 0, 0, 0.25);
+	height: 100%;
+	left: 0;
+	position: fixed;
+	top: 0;
+	transition: all 1s ease;
+	-o-transition: all 1s ease;
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	width: 135px;
+	z-index: 5;
+}
+#main-menu:hover {
+	transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	width: 215px;
+}
+#main-menu:hover + #overlay {
+	opacity: 1;
+	transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+}
+/*#logo {
+	background: #AAA;
+	display: block;
+	height: 50px;
+	margin: 30px;
+	width: 190px;
+}*/
+
+
+/* 4. Home - Work
+-------------------------------------------------------------- */
+#work {
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+}
+.work-item {
+	position: absolute;
+}
+
+#work-item-1 {
+	background: #FFF;
+	left: 0;
+	height: 66.6%;
+	top: 0;
+	width: 50%;
+}
+#work-item-2 {
+	background: #F0F;
+	left: 0;
+	height: 34%;
+	top: 66.6%;
+	width: 50%;
+}
+#work-item-3 {
+	background: #FF0;
+	left: 50%;
+	height: 33.3%;
+	top: 0;
+	width: 50%;
+}
+#work-item-4 {
+	background: #0FF;
+	left: 50%;
+	height: 33.3%;
+	top: 33.3%;
+	width: 50%;
+}
+#work-item-5 {
+	background: #F00;
+	left: 50%;
+	height: 34%;
+	top: 66.6%;
+	width: 50%;
+}
