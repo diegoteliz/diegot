@@ -15,9 +15,15 @@
 	</head>
 	<body>
 		<header id="main-menu">
-			<!-- <a href="/" id="logo">
-				<img src="" alt="Diego Téliz">
-			</a> -->
+			<nav id="main-nav">
+				<a href="#" id="menu-btn"><span>Menu</span></a>
+				<ul>
+					<li><a href="/">Work</a></li>
+					<li><a href="/skills">Skills</a></li>
+					<li><a href="/clients">Clients</a></li>
+					<li><a href="/about">About</a></li>
+				</ul>
+			</nav>
 		</header>
 		<div id="overlay"></div>
 		<div id="dinamic-content">
