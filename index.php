@@ -15,15 +15,19 @@
 	</head>
 	<body>
 		<header id="main-menu">
-			<nav id="main-nav">
+			<nav id="main-nav-wrapper">
 				<a href="#" id="menu-btn"><span>Menu</span></a>
-				<ul>
-					<li><a href="/">Work</a></li>
-					<li><a href="/skills">Skills</a></li>
-					<li><a href="/clients">Clients</a></li>
-					<li><a href="/about">About</a></li>
+				<ul id="main-nav">
+					<li class="main-nav-item"><a href="/work">Work</a></li>
+					<li class="main-nav-item"><a href="/about">About</a></li>
+					<li class="main-nav-item"><a href="/contact">Contact</a></li>
 				</ul>
 			</nav>
+			<figure id="logo">
+				<a href="/">
+					<img src="img/diegoteliz-logo.png" alt="DT">
+				</a>
+			</figure>
 		</header>
 		<div id="overlay"></div>
 		<div id="dinamic-content">

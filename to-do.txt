@@ -1,0 +1,5 @@
+menu {
+	- menu items > hover
+	- Make logo
+	- social links
+}
