@@ -1,16 +1,37 @@
-var Router = Backbone.Router.extend({
-	routes: {
-		''			: App.Controller.Home,
-		'about'		: App.Controller.About,
-		'contact'	: App.Controller.Contact,
-		'work'		: App.Controller.Work,
-		'work/:name': App.Controller.SingleWork
-	}
-});
+define([
+	'jquery',
+	'underscore',
+	'backbone' ,
+	'view/pages'
+], function($, _, Backbone, PageView){
+	
+	var AppRouter = Backbone.Router.extend({
+		
+		routes: {
+			'*url'	: 'renderPage'
+		},
+		renderPage : function (url) {
+			
+			if(url){
 
-App.Router = new Router();
+				var page = new PageView();
+				page.render(url);
 
-Backbone.history.start({
-    hashChange: false,
-    pushState: true
+			} else{
+
+				var page = new PageView();
+				page.render('index');
+
+			};
+		}
+	});
+
+	//Initialize the Router
+	var Router = new AppRouter;
+
+	// Activate Backbone history
+	Backbone.history.start({pushState: true});
+
+	return Router;
+
 });

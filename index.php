@@ -7,11 +7,11 @@
 		<meta name="author" content="Diego Teliz" />
 		
 		<!-- Styles & Fonts-->
-		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" href="/css/style.css" />
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
 		
 		<!-- Scripts -->
-		<script data-main="js/main" src="js/lib/require.js"></script>
+		<script data-main="/js/main" src="/js/lib/require.js"></script>
 	</head>
 	<body>
 		<header id="main-menu">
@@ -25,19 +25,13 @@
 			</nav>
 			<figure id="logo">
 				<a href="/">
-					<img src="img/diegoteliz-logo.png" alt="DT">
+					<img src="/img/diegoteliz-logo.png" alt="DT">
 				</a>
 			</figure>
 		</header>
-		<div id="overlay"></div>
+		<!-- <div id="overlay"></div> -->
 		<div id="dinamic-content">
-			<section id="work">
-				<article id="work-item-1" class="work-item"></article>
-				<article id="work-item-2" class="work-item"></article>
-				<article id="work-item-3" class="work-item"></article>
-				<article id="work-item-4" class="work-item"></article>
-				<article id="work-item-5" class="work-item"></article>
-			</section>
+			<!-- Here will be loaded HTML asynchronously -->
 		</div>
 	</body>
 </html>

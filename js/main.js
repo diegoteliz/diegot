@@ -1,13 +1,12 @@
 require.config({
-	baseUrl	: 'js/lib',
 	paths	: {
-		jquery 		: 'jquery',
-		underscore	: 'underscore',
-		backbone	: 'backbone',
-		easing		: 'jquery.easing'
+		jquery 		: 'lib/jquery',
+		underscore	: 'lib/underscore',
+		backbone	: 'lib/backbone',
+		easing		: 'lib/jquery.easing'
 	}
 });
 
-require(['jquery'], function( $ ) {
-	console.log( '$' ) // OK
+require(['app'], function(App){
+  App.initialize();
 });
