@@ -1,5 +1,10 @@
+general {
+	cambiar preloader
+}
 menu {
+	- check menu icon link
 	- menu items > hover
 	- Make logo
 	- social links
+	- menu behavior on click > hide
 }

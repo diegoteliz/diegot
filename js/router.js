@@ -29,6 +29,12 @@ define([
 	//Initialize the Router
 	var Router = new AppRouter;
 
+	// Navigation
+	$('a').click(function(event) {
+		event.preventDefault();
+		Router.navigate( $(this).attr('href') , {trigger: true} );
+	});
+
 	// Activate Backbone history
 	Backbone.history.start({pushState: true});
 

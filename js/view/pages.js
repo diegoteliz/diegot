@@ -9,15 +9,49 @@ define([
 
 		el: $('#dinamic-content'),
 		render: function(url){
-			/*if (url) {
-				// render page
-			} else{
-				// show 404
-			};*/
-			alert(url);
-			/*var data = {};
-			var compiledTemplate = _.template( HomeTemplate, data );
-			this.$el.html( compiledTemplate );*/
+			
+			var preloader	= $('#preloader');
+			var el 			= $('#dinamic-content');
+
+			preloader.fadeIn(100);
+			el.fadeOut(200, function() {
+				$.ajax({
+					url: '/template/'+url+'.html'
+				})
+				.done(function(data) {
+					//$(document).attr('title', 'TakeOff Media | ' + title)
+					
+					el.html(data);
+
+					/*if (page != 'home') {
+						$('.menu ul li a[href*=' + page + ']').addClass('active');
+					}*/
+					el.show();
+					preloader.fadeOut(200);
+
+				})
+				.fail(function() {
+
+					var preloader	= $('#preloader');
+					var el			= $('#dinamic-content');
+
+					preloader.fadeIn(200);
+					el.fadeOut(600, function() {
+						$.ajax({
+							url: '/template/404.html'
+						})
+						.done(function(data) {
+							$(document).attr('title', 'Oops! | Diego Téliz')
+							
+							el.html(data);
+
+						})
+						.fail(function() {
+							alert('an error occurred');
+						})
+					});
+				})
+			});
 		}
 
 	});

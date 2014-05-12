@@ -29,7 +29,8 @@
 				</a>
 			</figure>
 		</header>
-		<!-- <div id="overlay"></div> -->
+		<div id="overlay"></div>
+		<div id="preloader"></div>
 		<div id="dinamic-content">
 			<!-- Here will be loaded HTML asynchronously -->
 		</div>

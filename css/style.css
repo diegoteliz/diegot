@@ -84,21 +84,32 @@ footer, header, hgroup, menu, nav, section {
 
 /* General tags */
 body {
+	background: #FFF;
 	font: 400 14px 'Open Sans', serif;
 	margin: 0;
 	-webkit-font-smoothing: antialiased;
 }
 h1 {
-
+	font: 400 28px 'Open Sans', serif;
+	text-align: center;
+	margin: 30px 0;
+	width: 100%;
 }
 
 /* General classes */
 
 /* Structure */
+#preloader {
+	background: #EEE url('/img/preloader2.gif') no-repeat center;
+	height: 100%;
+	position: fixed;
+	width: 100%;
+	z-index: 3;
+}
 #overlay {
 	background: rgba(0, 0, 0, 0.2);
 	height: 100%;
-	position: absolute;
+	position: fixed;
 	opacity: 0;
 	transition: all 1s ease;
 	-o-transition: all 1s ease;
@@ -143,7 +154,7 @@ h1 {
 	-moz-transition: all 0.5s ease;
 	width: 215px;
 }
-#main-menu:hover + #overlay {
+#main-menu:hover + #overlay { /*fadeIn*/
 	opacity: 1;
 	transition: all 0.5s ease;
 	-o-transition: all 0.5s ease;
@@ -269,6 +280,9 @@ h1 {
 }
 .work-item {
 	position: absolute;
+}
+.work-item:hover {
+	opacity: 0.5;
 }
 
 #work-item-1 {

@@ -5,6 +5,7 @@ define([
 	'router',
 ], function($, _, Backbone, Router){
 	
+	// Router initialization
 	var initialize = function(){
 		Router;
 	}
