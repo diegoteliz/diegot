@@ -8,3 +8,6 @@ menu {
 	- social links
 	- menu behavior on click > hide
 }
+home {
+	- centrar frase
+}

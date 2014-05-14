@@ -270,7 +270,36 @@ h1 {
 	top: 50%;
 }
 
-/* 4. Home - Work
+/* 4. Home
+-------------------------------------------------------------- */
+#code {
+	color: #222;
+	font: 300 36px 'Open Sans', serif;
+	margin: 0 auto;
+	position: relative;
+	top: 30%;
+	width: 350px;
+	word-spacing: 5px;
+}
+.line {
+	margin: 8px 0;
+	padding-left: 10px;
+}
+.line.tab1 {
+	padding-left: 75px;
+}
+.code-type {
+	color: #8C3993;
+	font-style: italic;
+}
+.code-var {
+	color: #4885D6;
+}
+.code-string {
+	color: #3FA333;
+}
+
+/* 5. Work
 -------------------------------------------------------------- */
 #work {
 	height: 100%;
@@ -282,7 +311,7 @@ h1 {
 	position: absolute;
 }
 .work-item:hover {
-	opacity: 0.5;
+	opacity: 0.9;
 }
 
 #work-item-1 {

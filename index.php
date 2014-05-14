@@ -8,7 +8,7 @@
 		
 		<!-- Styles & Fonts-->
 		<link rel="stylesheet" type="text/css" href="/css/style.css" />
-		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic' rel='stylesheet' type='text/css'>
 		
 		<!-- Scripts -->
 		<script data-main="/js/main" src="/js/lib/require.js"></script>
@@ -29,7 +29,7 @@
 				</a>
 			</figure>
 		</header>
-		<div id="overlay"></div>
+		<!-- <div id="overlay"></div> -->
 		<div id="preloader"></div>
 		<div id="dinamic-content">
 			<!-- Here will be loaded HTML asynchronously -->

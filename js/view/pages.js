@@ -19,7 +19,7 @@ define([
 					url: '/template/'+url+'.html'
 				})
 				.done(function(data) {
-					//$(document).attr('title', 'TakeOff Media | ' + title)
+					//$(document).attr('title', 'Diego Téliz | ' + title)
 					
 					el.html(data);
 
