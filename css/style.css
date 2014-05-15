@@ -84,7 +84,7 @@ footer, header, hgroup, menu, nav, section {
 
 /* General tags */
 body {
-	background: #FFF;
+	background: #EEE;
 	font: 400 14px 'Open Sans', serif;
 	margin: 0;
 	-webkit-font-smoothing: antialiased;
@@ -119,7 +119,6 @@ h1 {
 	z-index: 4;
 }
 #dinamic-content {
-	background: #EEE;
 	height: 100%;
 	left: 120px;
 	position: absolute;
@@ -290,10 +289,12 @@ h1 {
 }
 .code-type {
 	color: #8C3993;
+	font-size: 38px;
 	font-style: italic;
 }
 .code-var {
 	color: #4885D6;
+	font-size: 38px;
 }
 .code-string {
 	color: #3FA333;
@@ -308,44 +309,71 @@ h1 {
 	width: 100%;
 }
 .work-item {
+	background: #333;
+	margin: 0.5%;
 	position: absolute;
+	overflow: hidden;
+	width: 48.5%;
 }
-.work-item:hover {
-	opacity: 0.9;
+.work-link:hover > .work-img > .work-info {
+	bottom: 0;
+}
+.work-link:hover > .work-img > .backstretch {
+	top: -50px;
+}
+.work-img {
+	height: 100%;
+	width: 100%;
 }
 
+/*.backstretch {
+	-webkit-transition: all 0.5s ease;
+	   -moz-transition: all 0.5s ease;
+	     -o-transition: all 0.5s ease;
+	        transition: all 0.5s ease;
+}*/
+.work-info {
+	background: #333;
+	bottom: -100px;
+	position: absolute;
+	-webkit-transition: all 0.5s ease;
+	   -moz-transition: all 0.5s ease;
+	     -o-transition: all 0.5s ease;
+	        transition: all 0.5s ease;
+	width: 100%;
+}
+.work-name {
+	color: #FFF;
+	font: 600 18px 'Open Sans', serif;
+	padding: 25px 40px 0;
+}
+.work-description {
+	color: #FFF;
+	font: 400 14px 'Open Sans', serif;
+	padding: 0 40px 25px;
+}
 #work-item-1 {
-	background: #0F0;
-	left: 0;
-	height: 66.6%;
-	top: 0;
-	width: 50%;
+	left: 0.5%;
+	height: 65%;
+	top: 0.5%;
 }
 #work-item-2 {
-	background: #F0F;
-	left: 0;
-	height: 34%;
-	top: 66.6%;
-	width: 50%;
+	left: 50%;
+	height: 32%;
+	top: 0.5%;
 }
 #work-item-3 {
-	background: #FF0;
 	left: 50%;
-	height: 33.3%;
-	top: 0;
-	width: 50%;
+	height: 32%;
+	top: 33.5%;
 }
 #work-item-4 {
-	background: #0FF;
-	left: 50%;
-	height: 33.3%;
-	top: 33.3%;
-	width: 50%;
+	left: 0.5%;
+	height: 32%;
+	top: 66.5%;
 }
 #work-item-5 {
-	background: #F00;
 	left: 50%;
-	height: 34%;
-	top: 66.6%;
-	width: 50%;
+	height: 32%;
+	top: 66.5%;
 }

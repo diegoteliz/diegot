@@ -11,3 +11,7 @@ menu {
 home {
 	- centrar frase
 }
+work {
+	- JPGs progresivos
+	- imágenes para retina
+}
