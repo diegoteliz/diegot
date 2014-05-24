@@ -1,5 +1,6 @@
 general {
 	cambiar preloader
+	hacer transiciones entre páginas
 }
 menu {
 	- check menu icon link

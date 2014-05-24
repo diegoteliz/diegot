@@ -315,23 +315,21 @@ h1 {
 	overflow: hidden;
 	width: 48.5%;
 }
-.work-link:hover > .work-img > .work-info {
+.work-link:hover > figure > .work-info {
 	bottom: 0;
 }
-.work-link:hover > .work-img > .backstretch {
-	top: -50px;
+.work-link:hover > figure > .work-img {
+	margin-top: -30px;
 }
+.work-link figure,
 .work-img {
 	height: 100%;
-	width: 100%;
-}
-
-/*.backstretch {
 	-webkit-transition: all 0.5s ease;
 	   -moz-transition: all 0.5s ease;
 	     -o-transition: all 0.5s ease;
 	        transition: all 0.5s ease;
-}*/
+	width: 100%;
+}
 .work-info {
 	background: #333;
 	bottom: -100px;
