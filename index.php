@@ -8,7 +8,10 @@
 		
 		<!-- Styles & Fonts-->
 		<link rel="stylesheet" type="text/css" href="/css/style.css" />
-		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,600' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed|Roboto|Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+
+		<!-- Icons -->
+		<link rel="icon" type="image/x-icon" href="/img/favicon.ico" sizes="16x16" />
 		
 		<!-- Scripts -->
 		<script data-main="/js/main" src="/js/lib/require.js"></script>

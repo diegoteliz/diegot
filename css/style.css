@@ -90,7 +90,7 @@ body {
 	-webkit-font-smoothing: antialiased;
 }
 h1 {
-	font: 400 28px 'Open Sans', serif;
+	font: 300 36px 'Open Sans', serif;
 	text-align: center;
 	margin: 30px 0;
 	width: 100%;
@@ -256,17 +256,32 @@ h1 {
 	font: 400 20px 'Open Sans', serif;
 	text-decoration: none;
 	text-transform: uppercase;
+	-webkit-transition: all 0.5s ease;
+	   -moz-transition: all 0.5s ease;
+	     -o-transition: all 0.5s ease;
+	        transition: all 0.5s ease;
 }
 .main-nav-item a:hover {
 	color: #FFF;
+	text-decoration: line-through;
 }
 
 /* Logo */
 #logo {
 	left: 50%;
-	margin: -25px 0 0 -38px;
+	margin: -27px 0 0 -27px;
 	position: absolute;
 	top: 50%;
+}
+#logo a {
+	opacity: 1;
+	-webkit-transition: all 0.5s ease;
+	   -moz-transition: all 0.5s ease;
+	     -o-transition: all 0.5s ease;
+	        transition: all 0.5s ease;
+}
+#logo a:hover {
+	opacity: 0.5;
 }
 
 /* 4. Home
@@ -290,7 +305,6 @@ h1 {
 .code-type {
 	color: #8C3993;
 	font-size: 38px;
-	font-style: italic;
 }
 .code-var {
 	color: #4885D6;
