@@ -1,6 +1,11 @@
 general {
-	cambiar preloader
-	hacer transiciones entre páginas
+	- cambiar preloader
+	- agregar html5shiv
+	- hacer transiciones entre páginas
+	----
+	- íconos del sitio en distintos tamaños (averiguar esto)
+	- Retina ready
+	- agregar inercia en scroll (excepto en mac)
 }
 menu {
 	- check menu icon link
@@ -8,11 +13,17 @@ menu {
 	- social links
 	- menu behavior on click > hide
 }
-home {
-	- centrar frase
-}
 work {
 	- JPGs progresivos
-	- imágenes para retina
-	- definir colores para figcaption
+}
+about {
+	- imagen > onclick > mostrar grande
+}
+contact {
+	- icons {
+		- agregar sombra
+		- onclick 'mail icon' mostrar formulario de contacto
+		- pensar otra animación
+	}
+	- contact-info > mail hover
 }
