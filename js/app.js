@@ -3,12 +3,12 @@ define([
 	'underscore',
 	'backbone',
 	'router',
-], function($, _, Backbone, Router){
+	'tracking'
+], function($, _, Backbone, Router, Tracking){
 	
 	// General behaviors
 	$('#menu-btn').click(function(event) {
 		event.preventDefault();
-		//alert('hey');
 	});
 
 	// Router initialization

@@ -3,7 +3,7 @@
 	<article>
 		<section id="bio">
 			<figure id="diegoteliz">
-				<img src="/img/diego-teliz.jpg" alt="Diego Téliz" />
+				<img src="/img/diego-teliz.jpg" alt="." />
 				<figcaption>
 					<h1>Diego J. Téliz</h1>
 					<h2><b>Web Developer</b></h2>
