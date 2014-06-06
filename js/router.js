@@ -1,9 +1,10 @@
 define([
 	'jquery',
 	'underscore',
-	'backbone' ,
-	'view/pages'
-], function($, _, Backbone, PageView){
+	'backbone',
+	'view/pages',
+	'tracking'
+], function($, _, Backbone, PageView, Tracking){
 	
 	var AppRouter = Backbone.Router.extend({
 		

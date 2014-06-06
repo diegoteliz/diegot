@@ -2,9 +2,8 @@ define([
 	'jquery',
 	'underscore',
 	'backbone',
-	'router',
-	'tracking'
-], function($, _, Backbone, Router, Tracking){
+	'router'
+], function($, _, Backbone, Router){
 	
 	// General behaviors
 	$('#menu-btn').click(function(event) {
@@ -16,7 +15,5 @@ define([
 		Router;
 	}
 	return { initialize: initialize };
-
-
 
 });
