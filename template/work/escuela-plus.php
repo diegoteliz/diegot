@@ -16,3 +16,8 @@
 		</figure>
 	</footer>
 </section>
+<script type="text/javascript">
+	require([], function(){
+		$(document).attr({title:'Diego Téliz | Escuela Plus'})
+	});
+</script>
