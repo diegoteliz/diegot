@@ -30,7 +30,7 @@ define([
 	var Router = new AppRouter;
 
 	// Navigation
-	$('a').click(function(event) {
+	$('a').not('.static').click(function(event) {
 		event.preventDefault();
 		Router.navigate( $(this).attr('href') , {trigger: true} );
 	});

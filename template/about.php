@@ -1,3 +1,4 @@
+<?php require_once '../include/functions.php'; ?>
 <section id="about">
 	<article>
 		<section id="bio">
@@ -9,8 +10,8 @@
 					<div class="separator"></div>
 				</figcaption>
 			</figure>
-			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
-			<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit.</p>
+			<p>I'm Diego, a <?php echo get_years_old( '1991-03-24' ) ?> years old web developer and designer since <?php echo get_experience_years( '2007' ) ?> years. I also have experience in mobile application development, 3D modeling, animation, networking and virtualization. Currently live in Uruguay and work as a Senior Web Developer at <a href="http://takeoffmedia.com/" rel="nofollow" target="_blank">Takeoff Media</a> and I manage a personal venture: <a href="http://aero.com.uy/" target="_blank">Aero Creative Studio</a>.</p>
+			<p>When I working I give much importance to details, even the smallest. I'm always researching and learning new technologies. My goal with each project is always to make a functional, user-friendly and innovative product. I love what I do and try to beat myself everyday.</p>
 		</section>
 		<section id="skills">
 			<h1>Skills</h1>

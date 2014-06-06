@@ -1,27 +1,37 @@
+=== V 1.0 ===
+
 general {
-	- cambiar preloader
-	- agregar html5shiv
+	- responsive
+	- agregar analytics > trackeo entre páginas (ver takeoff)
+}
+- CV
+
+=== V 1.1 ===
+
+general {
 	- hacer transiciones entre páginas
-	----
+	- 404
+	- mensaje para browsers viejos
+	- compatibilidad ie
+	- logo DT con ascii art en código fuente
 	- íconos del sitio en distintos tamaños (averiguar esto)
 	- Retina ready
 	- agregar inercia en scroll (excepto en mac)
 }
 menu {
-	- check menu icon link
-	- menu items > hover
 	- social links
+	- menu items > hover
 	- menu behavior on click > hide
 }
-work {
-	- JPGs progresivos
+work single {
+	-- flechas de navegación
+	- imágenes en otros contextos (ej: en iMac)
 }
 about {
 	- imagen > onclick > mostrar grande
 }
 contact {
 	- icons {
-		- agregar sombra
 		- onclick 'mail icon' mostrar formulario de contacto
 		- pensar otra animación
 	}

@@ -16,7 +16,7 @@
 				<div class="work-img"></div>
 				<figcaption class="work-info">
 					<p class="work-name">Petersen Museum</p>
-					<p class="work-description">HTML5 website</p>
+					<p class="work-description">Automotive website</p>
 				</figcaption>
 			</figure>
 		</a>
@@ -27,7 +27,7 @@
 				<div class="work-img"></div>
 				<figcaption class="work-info">
 					<p class="work-name">Punta Carretas Shopping</p>
-					<p class="work-description">HTML5 website</p>
+					<p class="work-description">Institutional website</p>
 				</figcaption>
 			</figure>
 		</a>
@@ -38,7 +38,7 @@
 				<div class="work-img"></div>
 				<figcaption class="work-info">
 					<p class="work-name">Escuela Plus</p>
-					<p class="work-description">HTML5 website</p>
+					<p class="work-description">Educational website</p>
 				</figcaption>
 			</figure>
 		</a>
@@ -49,7 +49,7 @@
 				<div class="work-img"></div>
 				<figcaption class="work-info">
 					<p class="work-name">LACTLD</p>
-					<p class="work-description">HTML5 website</p>
+					<p class="work-description">Institutional website</p>
 				</figcaption>
 			</figure>
 		</a>

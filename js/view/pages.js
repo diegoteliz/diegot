@@ -16,16 +16,11 @@ define([
 			preloader.fadeIn(100);
 			el.fadeOut(200, function() {
 				$.ajax({
-					url: '/template/'+url+'.html'
+					url: '/template/'+url+'.php'
 				})
 				.done(function(data) {
-					//$(document).attr('title', 'Diego Téliz | ' + title)
-					
+							
 					el.html(data);
-
-					/*if (page != 'home') {
-						$('.menu ul li a[href*=' + page + ']').addClass('active');
-					}*/
 					el.show();
 					preloader.fadeOut(200);
 
@@ -38,7 +33,7 @@ define([
 					preloader.fadeIn(200);
 					el.fadeOut(600, function() {
 						$.ajax({
-							url: '/template/404.html'
+							url: '/template/404.php'
 						})
 						.done(function(data) {
 							$(document).attr('title', 'Oops! | Diego Téliz')

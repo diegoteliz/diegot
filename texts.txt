@@ -1,0 +1,83 @@
+Preloader
+flat icons: 2
+_flat : 2
+
+BIO
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+
+Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit.
+
+es:
+Hola, mi nombre es Diego, tengo 23 años y resido en Montevideo, Uruguay. Soy desarrollador web y diseñador desde hace 7 años. También tengo conocimientos en desarrollo de aplicaciones móviles, modelado 3D, animación, redes informáticas y virtualización. Actualmente trabajo como Senior web developer en takeoffmedia y dirijo un proyecto personal: aero 
+
+A la hora de trabajar soy muy detallista, tanto en lo que se ve, como en lo que no. Siempre estoy investigando y aprendiendo nuevas tecnologías. Mi objetivo con cada proyecto siempre es hacer un producto funcional, user-friendly e innovador. Me encanta lo que hago e intento superarme a mi mismo día a día.
+
+en:
+I'm Diego, a 23 years old web developer and designer since 7 years. I also have experience in mobile application development, 3D modeling, animation, networking and virtualization. Currently live in Uruguay and work as a Senior Web Developer at Takeoff Media and I manage a personal venture: Aero Creative Studio.
+
+When I working I give much importance to details, even the smallest. I'm always researching and learning new technologies. My goal with each project is always to make a functional, user-friendly and innovative product. I love what I do and try to beat myself everyday.
+
+--
+
+
+WORK - INDIVIDUALS
+
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud.
+
+============ Takeoff Media ============
+es:
+Takeoff Media es una agencia que realiza producciones web, multimedia y mobile. El sitio web desarrollado, expresa toda la potencialidad creativa de esta agencia y su gusto por el impacto visual.
+
+en:
+Takeoff Media is an agency that make incredibles websites, multimedia productions and mobile apps. The website developed expresses all the creative potential of this agency and its taste for visual impact.
+
+In this project I worked in: Backend and Frontend.
+Direct link: http://takeoffmedia.com/
+
+============ Petersen Museum ============
+es:
+Petersen es un museo automovilístico ubicado en Los Angeles. El sitio web desarrollado muestra las exhibiciones del museo, los eventos que se realizan allí y todos los artículos del store. También cuenta con una mapa interactivo del edificio y otras herramientas útiles para los visitantes.
+
+en:
+Petersen is an Automotive Museum located in Los Angeles. The website developed shows the museum exhibitions, events and store items. It also has an interactive map of the building and other useful tools for visitors.
+
+In this project I worked in: Backend and Frontend.
+Direct link: http://www.petersen.org/
+
+============ Punta Carretas Shopping ============
+
+es:
+Un sitio web para uno de los mayores centros comerciales de Montevideo: Punta Carretas Shopping. Un sitio limpio y fácil de navegar, con un Backend System que permite gestionar cada local del shopping, la cartelera de películas, eventos, promociones y más.
+
+en:
+A website for one of the largest shopping centers in Montevideo: Punta Carretas Shopping. A clean and easy to navigate website with a Backend System for managing each local of shopping, movie billboard, events, promotions and more.
+
+In this project I worked in: Backend modules and Frontend.
+Direct link: http://puntacarretasweb.com.uy/
+
+
+============ Escuela Plus ============
+
+es:
+Portal educativo para Escuelas de latinoamérica que forman parte del programa Escuela Plus, utilizando la tecnología de DIRECTV y con el contenido educativo de sus socios; Microsoft, Discovery, National Geographic, entre otros. El sitio web desarrollado cuenta con un CMS que gestiona las fichas de estudio que componen el programa, las escuelas participantes, noticias y mucho contenido más.
+
+en:
+Educational Portal for Schools of Latin America as part of the "Escuela Plus" program, this uses technology from DIRECTV and the educational content of its partners; Microsoft, Discovery, National Geographic, among others.
+
+The website developed have a CMS that manages the records of study that make up the program, participating schools, news and much more content.
+
+In this project I worked in: Backend modules and Frontend (partially).
+Direct link: http://escuelaplus.com/
+
+============ LACTLD ============
+
+es:
+LACTLD es una asociación que agrupa a los administradores de los ccTLDs de América Latina y el Caribe.
+El sitio web desarrollado cuenta con un CMS que gestiona los miembros asociados, documentos internos, agenda de eventos y más.
+
+en:
+LACTLD is an association of administrators of ccTLDs in Latin America and the Caribbean.
+The website developed have a CMS that manages the associate members, internal documents, events and more.
+
+In this project I worked in: Backend modules and Frontend (partially).
+Direct link: http://www.lactld.org/
