@@ -786,10 +786,19 @@ p {
 		width: 100%;
 	}
 
+	/* Work - Single */
+	.work-details {
+		width: 100%;
+	}
+	.work-single-img {
+		margin: 2rem 0;
+	}
+
 }
 
 @media screen and (max-width: 539px) {
 	
+	/* Work */
 	.work-name {
 		font: 600 0.8rem 'Open Sans', serif;
 		padding: 10px 20px;
@@ -799,6 +808,7 @@ p {
 
 @media screen and (max-width: 479px) {
 	
+	/* Home */
 	#code {
 		font: 300 1.5rem 'Open Sans', serif;
 		top: 10%;
@@ -808,11 +818,5 @@ p {
 	.code-var {
 		font-size: 1.6rem;
 	}
-
-}
-
-@media screen and (max-width: 319px) {
-	
-	
 
 }
