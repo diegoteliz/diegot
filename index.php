@@ -3,8 +3,9 @@
 	<head>
 		<meta charset="utf-8" />
 		<title>Diego Téliz</title>
-		<meta name="description" content="Sitio oficial de Diego Téliz" />
+		<meta name="description" content="Official Diego Téliz website" />
 		<meta name="author" content="Diego Teliz" />
+		<meta name="viewport" content="width=device-width; initial-scale=1.0" />
 		
 		<!-- Styles & Fonts-->
 		<link rel="stylesheet" type="text/css" href="/css/style.css" />
@@ -45,7 +46,7 @@
 			</nav>
 			<figure id="logo">
 				<a href="/">
-					<img src="/img/diegoteliz-logo.png" alt="DT">
+					<img src="/img/diegoteliz-logo.png" alt="DT" />
 				</a>
 			</figure>
 		</header>

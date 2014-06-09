@@ -26,7 +26,7 @@
 			<figure>
 				<div class="work-img"></div>
 				<figcaption class="work-info">
-					<p class="work-name">Punta Carretas Shopping</p>
+					<p class="work-name">Punta Carretas</p>
 					<p class="work-description">Institutional website</p>
 				</figcaption>
 			</figure>

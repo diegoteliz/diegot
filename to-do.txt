@@ -2,7 +2,6 @@
 
 general {
 	- responsive
-	- agregar analytics > trackeo entre páginas (ver takeoff)
 }
 - CV
 

@@ -2,8 +2,7 @@
 /*
 Theme Name: Diego Téliz
 Author: Diego Téliz - contacto@diegoteliz.com
-Author URI: http://aero.com.uy
-Version: 2.0
+Version: 1.0
 */
 
 /* ==============================================================
@@ -13,12 +12,39 @@ Version: 2.0
 
 1.	Reset default browser CSS
 
-
 2.	General
 
 	- General tags
-	- General classes
 	- Structure
+	- Preloader
+
+3.	Main menu
+
+	- Menu icon
+	- Menu items
+	- Logo
+
+4.	Home
+
+5.	Work
+
+5.1	Work > Single
+
+6.	About
+
+	- Bio
+	- Skills
+	- Brands
+
+7.	Contact
+
+8. Media Queries
+
+	- 1024px
+	- 768px
+	- 540px
+	- 480px
+	- 320px
 	
 
 ============================================================== */
@@ -100,7 +126,7 @@ h1 {
 	width: 100%;
 }
 h2 {
-	color: #2B94FF;
+	color: #00A9A4;
 	font: 600 1.25rem 'Open Sans', serif;
 	padding: 0.3125rem 0.75rem;
 	width: 100%;
@@ -109,10 +135,8 @@ p {
 	font: 1rem/1.8rem 'Roboto', sans-serif;
 	padding: 0.75rem;
 }
-/* General classes */
 
 /* Structure */
-
 #overlay {
 	background: rgba(0, 0, 0, 0.2);
 	height: 100%;
@@ -171,7 +195,7 @@ p {
 	        transition: all 0.5s ease;
 	width: 215px;
 }
-#main-menu:hover + #overlay { /*fadeIn*/
+#main-menu:hover + #overlay { 
 	opacity: 1;
 	-webkit-transition: all 0.5s ease;
 	   -moz-transition: all 0.5s ease;
@@ -303,6 +327,7 @@ p {
 	opacity: 0.5;
 }
 
+
 /* 4. Home
 -------------------------------------------------------------- */
 #code {
@@ -332,6 +357,7 @@ p {
 .code-string {
 	color: #3FA333;
 }
+
 
 /* 5. Work
 -------------------------------------------------------------- */
@@ -415,6 +441,7 @@ p {
 	top: 67%;
 }
 
+
 /* 5.1 Work - Single
 -------------------------------------------------------------- */
 .work-single {
@@ -442,7 +469,7 @@ p {
 	padding: 0.25rem 0.75rem;
 }
 .work-more-info a {
-	color: #2B94FF;
+	color: #00A9A4;
 	text-decoration: none;
 }
 .work-more-info a:hover {
@@ -457,6 +484,7 @@ p {
 	   -moz-box-shadow: 0 0 4px 2px rgba(180, 180, 180, 0.8);
 	        box-shadow: 0 0 4px 2px rgba(180, 180, 180, 0.8);
 }
+
 
 /* 6. About
 -------------------------------------------------------------- */
@@ -542,6 +570,7 @@ p {
 	padding: 15px 8px;
 }
 
+
 /* 7. Contact
 -------------------------------------------------------------- */
 #contact {
@@ -618,4 +647,172 @@ p {
 .social-link#google-plus:hover {
 	background: #D34231 url('/img/social-icons.png') no-repeat -280px 0;
 	border-color: #D34231;
+}
+
+
+/* 8. Media Queries
+------------------------------------------------------------------ */
+
+@media screen and (max-width: 1023px) {
+	
+	/* Main Menu */
+	#main-menu {
+		height: 70px;
+		width: 100%;
+	}
+	#main-menu:hover {
+		width: 100%;
+	}
+	#main-menu:hover > #main-nav-wrapper > #menu-btn {
+		opacity: 1;
+	}
+	#main-menu:hover > #main-nav-wrapper > #main-nav {
+		-webkit-transition: all 0.5s ease;
+		   -moz-transition: all 0.5s ease;
+			 -o-transition: all 0.5s ease;
+			    transition: all 0.5s ease;
+	}
+	
+	#menu-btn {
+		left: 25px;
+		margin-left: 0;
+		top: 15px;
+		width: 30px;
+	}
+	#menu-btn span {
+		height: 3px;
+	}
+
+	#main-nav {
+		background: #333;
+		display: none;
+		position: absolute;
+		top: -165px;
+		-webkit-transition: all 0.5s ease;
+		   -moz-transition: all 0.5s ease;
+		     -o-transition: all 0.5s ease;
+		        transition: all 0.5s ease;
+		width: 100%;
+		z-index: -1;
+	}
+	#main-nav.opened {
+		display: inline-block;
+		opacity: 1;
+		top: 70px;
+	}
+	.main-nav-item {
+		border-bottom: 1px solid #444;
+		margin: 0;
+		padding: 13px 20px;
+	}
+	#logo a {
+		background: url('/img/diegoteliz-logo-small.png') no-repeat;
+		display: block;
+		height: 55px;
+		width: 55px;
+	}
+	#logo a img {
+		display: none;
+	}
+
+	/* Structure */
+	#dinamic-content {
+		left: 0;
+		position: absolute;
+		right: 0;
+		top: 70px;
+	}
+	#overlay {
+		display: none;
+	}
+	.work-single,
+	#about,
+	#contact {
+		padding: 0 2rem;
+	}
+
+	/* Work */
+	.work-info {
+		bottom: 0;
+		height: auto;
+	}
+	.work-name {
+		padding: 10px 20px;
+	}
+	.work-description {
+		display: none;
+	}
+
+	/* Work - Single */
+	.work-single-img {
+		height: auto;
+		width: 100%;
+	}
+	
+	/* About */
+	#brands {
+		width: 100%;
+	}
+
+}
+
+@media screen and (max-width: 767px) {
+	
+	/* Work */
+	.work-item {
+		width: 48.5%;
+	}
+	.work-link:hover > figure > .work-img {
+		margin-top: 0;
+	}
+	#work-item-1 {
+		left: 1%;
+		height: 32%;
+		width: 98%;
+		top: 1%;
+	}
+	#work-item-2 {
+		left: 1%;
+		top: 34%;
+	}
+
+	/* About */
+	#about {
+		margin-top: -70px;
+	}
+	#bio,
+	#skills {
+		margin: 5rem auto;
+		width: 100%;
+	}
+
+}
+
+@media screen and (max-width: 539px) {
+	
+	.work-name {
+		font: 600 0.8rem 'Open Sans', serif;
+		padding: 10px 20px;
+	}
+
+}
+
+@media screen and (max-width: 479px) {
+	
+	#code {
+		font: 300 1.5rem 'Open Sans', serif;
+		top: 10%;
+		width: 260px;
+	}
+	.code-type,
+	.code-var {
+		font-size: 1.6rem;
+	}
+
+}
+
+@media screen and (max-width: 319px) {
+	
+	
+
 }
