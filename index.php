@@ -6,6 +6,34 @@
 		<meta name="description" content="Official Diego Téliz website" />
 		<meta name="author" content="Diego Teliz" />
 		<meta name="viewport" content="width=device-width; initial-scale=1.0" />
+		<!--
+
+		                    ░▓██      
+		                    ████      
+		                    ████      
+		              ▒███░ ████      
+		              ████░ ████      
+		              ████  ████      
+		              ████░ ████      
+		       ▒▓▓▓█▒ ████  ████ ░▓▓▓▓
+		   ░▓███████▓ ████░ ████ ▓████
+		  ▓████▒░     ████  ████      
+		 ▓███▓        ████░ ████      
+		▓████         ████░ ████      
+		████▓         ████░ ████      
+		▓████         ████  ████▒     
+		 ▓███▓       ████▓  ░████▒    
+		  ▓████▓▒░▒▓████▓    ░█████▓▒▒
+		    ▒▓███████▓▒        ░▓█████
+
+
+
+		Diego Téliz © 2014 - All Rights Reserved
+		http://diegoteliz.com
+
+		Code and Design by Diego Téliz - contacto@diegoteliz.com (@DiegoTeliz)
+
+		-->
 		
 		<!-- Styles & Fonts-->
 		<link rel="stylesheet" type="text/css" href="/css/style.css" />
