@@ -16,7 +16,6 @@ menu {
 	- menu behavior on click > hide
 }
 work single {
-	-- flechas de navegación
 	- imágenes en otros contextos (ej: en iMac)
 }
 about {

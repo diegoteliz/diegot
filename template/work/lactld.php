@@ -1,3 +1,10 @@
+<nav id="work-nav">
+	<ul>
+		<li><a href="/work" id="grid" class="work-nav-item"></a></li>
+		<li><a href="/work/escuela-plus" id="prev" class="work-nav-item"></a></li>
+		<li><a href="/work/takeoff" id="next" class="work-nav-item"></a></li>
+	</ul>
+</nav>
 <section class="work-single">
 	<h1>LACTLD</h1>
 	<div class="work-details">

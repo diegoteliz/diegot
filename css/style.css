@@ -485,6 +485,34 @@ p {
 	        box-shadow: 0 0 4px 2px rgba(180, 180, 180, 0.8);
 }
 
+/* Navigation */
+#work-nav {
+	position: fixed;
+	right: 1px;
+	top: 1px;
+}
+.work-nav-item {
+	background: #CCC url('/img/work-nav-icons.png') 0 0 no-repeat;
+	display: block;
+	height: 50px;
+	margin-top: 1px;
+	opacity: 0.6;
+	-webkit-transition: all 0.5s ease;
+	   -moz-transition: all 0.5s ease;
+	     -o-transition: all 0.5s ease;
+	        transition: all 0.5s ease;
+	width: 50px;
+}
+.work-nav-item:hover {
+	opacity: 1;
+}
+.work-nav-item#grid {
+	background-position: 0 -50px;
+}
+.work-nav-item#next {
+	background-position: 0 -100px;
+}
+
 
 /* 6. About
 -------------------------------------------------------------- */
@@ -747,6 +775,9 @@ p {
 	.work-single-img {
 		height: auto;
 		width: 100%;
+	}
+	#work-nav {
+		top: 71px;
 	}
 	
 	/* About */
