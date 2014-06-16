@@ -1,17 +1,23 @@
 === V 1.1 ===
 
 general {
-	- hacer transiciones entre páginas
 	- 404
 	- mensaje para browsers viejos
 	- compatibilidad ie
-	- logo DT con ascii art en código fuente
 	- íconos del sitio en distintos tamaños (averiguar esto)
+}
+menu {
+	- social links
+}
+
+=== V 1.2 ===
+
+general {
+	- hacer transiciones entre páginas
 	- Retina ready
 	- agregar inercia en scroll (excepto en mac)
 }
 menu {
-	- social links
 	- menu items > hover
 	- menu behavior on click > hide
 }
@@ -28,5 +34,3 @@ contact {
 	}
 	- contact-info > mail hover
 }
-
-=== V 1.2 ===
