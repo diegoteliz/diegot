@@ -4,7 +4,6 @@ general {
 	- 404
 	- mensaje para browsers viejos
 	- compatibilidad ie
-	- íconos del sitio en distintos tamaños (averiguar esto)
 }
 menu {
 	- social links
