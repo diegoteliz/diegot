@@ -31,11 +31,11 @@
 				--><li><img src="/img/brand/1.png" alt="Visa" title="Visa" /></li><!--
 				--><li><img src="/img/brand/2.png" alt="DIRECTV" title="DIRECTV" /></li><!--
 				--><li><img src="/img/brand/3.png" alt="Petrobras" title="Petrobras" /></li><!--
-				--><li><img src="/img/brand/4.png" alt="Movistar" title="Movistar" /></li><!--
+				--><li><img src="/img/brand/4.png" alt="Autodesk" title="Autodesk" /></li><!--
 				--><li><img src="/img/brand/5.png" alt="Ancap" title="Ancap" /></li><!--
 				--><li><img src="/img/brand/6.png" alt="Citibank" title="Citibank" /></li><!--
 				--><li><img src="/img/brand/7.png" alt="Golf Channel" title="Golf Channel" /></li><!--
-				--><li><img src="/img/brand/8.png" alt="Punta Carretas Shopping" title="Punta Carretas Shopping" /></li><!--
+				--><li><img src="/img/brand/8.png" alt="Movistar" title="Movistar" /></li><!--
 				--><li><img src="/img/brand/9.png" alt="Banco República" title="Banco República" /></li><!--
 				--><li><img src="/img/brand/10.png" alt="HUB Brasil" title="HUB Brasil" /></li><!--
 				--><li><img src="/img/brand/11.png" alt="BPS" title="Banco de Previsión Social" /></li><!--
