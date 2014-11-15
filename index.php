@@ -5,7 +5,7 @@
 		<title>Diego Téliz</title>
 		<meta name="description" content="Official Diego Téliz website" />
 		<meta name="author" content="Diego Teliz" />
-		<meta name="viewport" content="width=device-width; initial-scale=1.0" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<!--
 
 		                    ░▓██      
