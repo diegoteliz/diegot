@@ -1,11 +1,11 @@
 <section id="contact">
 	<nav id="social-links-wrapper">
 		<ul id="social-links">
-			<li><a href="http://www.linkedin.com/in/diegoteliz" class="social-link" id="linkedin" rel="nofollow" target="_blank"></a></li>
-			<li><a href="http://twitter.com/diegoteliz" class="social-link" id="twitter" rel="nofollow" target="_blank"></a></li>
-			<li><a href="mailto:contacto@diegoteliz.com" class="social-link" id="email"></a></li>
-			<li><a href="https://www.facebook.com/diegoteliz" class="social-link" id="facebook" rel="nofollow" target="_blank"></a></li>
-			<li><a href="https://plus.google.com/+DiegoTeliz/" class="social-link" id="google-plus" rel="nofollow" target="_blank"></a></li>
+			<li><a href="http://www.linkedin.com/in/diegoteliz" class="social-link icon-linkedin" id="linkedin" rel="nofollow" target="_blank"></a></li>
+			<li><a href="http://twitter.com/diegoteliz" class="social-link icon-twitter" id="twitter" rel="nofollow" target="_blank"></a></li>
+			<li><a href="mailto:contacto@diegoteliz.com" class="social-link icon-email" id="email"></a></li>
+			<li><a href="https://www.facebook.com/diegoteliz" class="social-link icon-facebook" id="facebook" rel="nofollow" target="_blank"></a></li>
+			<li><a href="https://plus.google.com/+DiegoTeliz/" class="social-link icon-google" id="google-plus" rel="nofollow" target="_blank"></a></li>
 		</ul>
 	</nav>
 	<div id="contact-info">

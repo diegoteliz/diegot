@@ -1,8 +1,8 @@
 <nav id="work-nav">
 	<ul>
-		<li><a href="/work" id="grid" class="work-nav-item"></a></li>
-		<li><a href="/work/punta-carretas-shopping" id="prev" class="work-nav-item"></a></li>
-		<li><a href="/work/lactld" id="next" class="work-nav-item"></a></li>
+		<li><a href="/work" id="grid" class="work-nav-item icon-grid"></a></li>
+		<li><a href="/work/punta-carretas-shopping" id="prev" class="work-nav-item icon-previous"></a></li>
+		<li><a href="/work/lactld" id="next" class="work-nav-item icon-next"></a></li>
 	</ul>
 </nav>
 <section class="work-single">
