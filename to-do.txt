@@ -6,6 +6,7 @@ general {
 	- Página 404
 	- mensaje para browsers viejos
 	- compatibilidad ie ?
+	- Testear y corregir comportamiento al hacer resize de la ventana (menu, alto de '#dinamic-content', etc.)
 }
 menu {
 	- pasar logo principal a svg
