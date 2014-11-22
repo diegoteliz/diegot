@@ -1,7 +1,7 @@
 === V 1.1 ===
 
 general {
-	- configurar tareas de Grunt 
+	- configurar tareas de Grunt
 	- hacer jshint y csslint
 	- refactorear js
 	- Página 404
