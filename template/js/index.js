@@ -12,7 +12,7 @@ require([], function(){
     }
 
 	function codeVerticalAlign(){
-		$('#code').css({top: (winHeight/2) - ($('#code').height()/2) - 70});
+		$('#code').css({top: (winHeight/2) - ($('#code').height()/2) - 30});
 	}
 	codeVerticalAlign();
 	$(window).resize(function(event) {
