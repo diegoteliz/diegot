@@ -92,7 +92,7 @@
 						<li><a href="http://twitter.com/diegoteliz" class="static icon-twitter both-views" rel="nofollow" target="_blank">@DiegoTeliz</a></li>
 						<li><a href="https://www.facebook.com/diegoteliz" class="static icon-facebook both-views" rel="nofollow" target="_blank">/diegoteliz</a></li>
 						<li><a href="https://plus.google.com/+DiegoTeliz/" class="static icon-google" rel="nofollow" target="_blank">+DiegoTeliz</a></li>
-						<!-- <li><a href="https://github.com/diegoteliz/" class="static icon-github" rel="nofollow" target="_blank">/diegoteliz</a></li> -->
+						<li><a href="https://github.com/diegoteliz/" class="static icon-github" rel="nofollow" target="_blank">/diegoteliz</a></li>
 					</ul>
 				</div>
 			</nav>

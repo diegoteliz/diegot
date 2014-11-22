@@ -8,7 +8,6 @@ general {
 	- compatibilidad ie ?
 }
 menu {
-	- en pantallas con resolución menor a 580px de alto y mayor o igual a 1024 px de ancho, ocultar logo al hacer over
 	- pasar logo principal a svg
 	- rehacer menu mobile para que ocupe toda la pantalla (usar js si es necesario, pero que quede bien), agregar el mismo efecto de aparición que "options-wrapper" y probar agregarle un color diferente a cada ítem
 }

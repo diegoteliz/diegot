@@ -269,13 +269,6 @@ p {
 	        transition: all 0.5s ease;
 	z-index: 4;
 }
-#main-menu:hover > #main-nav-wrapper > #main-nav {
-	opacity: 1;
-	-webkit-transition: all 1s ease;
-	   -moz-transition: all 1s ease;
-		 -o-transition: all 1s ease;
-		    transition: all 1s ease;
-}
 
 #main-menu:hover > #main-nav-wrapper > #options-btn {
 	opacity: 0;
@@ -384,6 +377,14 @@ p {
 	margin: -27px 0 0 -27px;
 	position: absolute;
 	top: 50%;
+	-webkit-transition: all 0.5s ease;
+	   -moz-transition: all 0.5s ease;
+	     -o-transition: all 0.5s ease;
+	        transition: all 0.5s ease;
+	-webkit-transition-delay: 0.2s;
+	   -moz-transition-delay: 0.2s;
+		 -o-transition-delay: 0.2s;
+		    transition-delay: 0.2s;
 }
 #logo a {
 	opacity: 1;
@@ -836,9 +837,27 @@ p {
 /* 8. Media Queries
 ------------------------------------------------------------------ */
 
+@media screen and (max-height: 580px) and (min-width: 1024px) {
+	#main-menu:hover > #logo {
+		opacity: 0;
+		visibility: hidden;
+		-webkit-transition: all 0.2s ease;
+		   -moz-transition: all 0.2s ease;
+		     -o-transition: all 0.2s ease;
+		        transition: all 0.2s ease;
+	}
+}
+
 @media screen and (min-width: 1024px) {
 
 	/* Main Menu */
+	#main-menu:hover > #main-nav-wrapper > #main-nav {
+		opacity: 1;
+		-webkit-transition: all 1s ease;
+		   -moz-transition: all 1s ease;
+			 -o-transition: all 1s ease;
+			    transition: all 1s ease;
+	}
 	#main-menu:hover > #main-nav-wrapper #options-wrapper {
 		filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
 		opacity: 1;
@@ -897,12 +916,6 @@ p {
 	#main-menu:hover {
 		width: 100%;
 	}
-	#main-menu:hover > #main-nav-wrapper > #main-nav {
-		-webkit-transition: all 0.5s ease;
-		   -moz-transition: all 0.5s ease;
-			 -o-transition: all 0.5s ease;
-			    transition: all 0.5s ease;
-	}
 	#main-menu:hover > #main-nav-wrapper > #options-btn {
 		filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
 		opacity: 1;
@@ -922,25 +935,33 @@ p {
 
 	#main-nav {
 		background: #333;
-		display: none;
+		opacity: 0;
 		position: absolute;
-		top: -165px;
-		-webkit-transition: all 0.5s ease;
-		   -moz-transition: all 0.5s ease;
-		     -o-transition: all 0.5s ease;
-		        transition: all 0.5s ease;
+		top: 70px;
+		-webkit-transition: all 0.2s ease;
+		   -moz-transition: all 0.2s ease;
+		     -o-transition: all 0.2s ease;
+		        transition: all 0.2s ease;
+		-webkit-transform: scale(0.7);
+		   -moz-transform: scale(0.7);
+		    -ms-transform: scale(0.7);
+		        transform: scale(0.7);
 		width: 100%;
-		z-index: -1;
+		visibility: hidden;
 	}
 	#main-nav.opened {
 		display: inline-block;
 		opacity: 1;
-		top: 70px;
+		/*top: 70px;*/
+		-webkit-transform: scale(1);
+		   -moz-transform: scale(1);
+		    -ms-transform: scale(1);
+		        transform: scale(1);
+		visibility: visible;
 	}
 	.main-nav-item {
 		border-bottom: 1px solid #444;
 		margin: 0;
-		padding: 13px 20px;
 	}
 	#logo a {
 		background: url('/img/diegoteliz-logo-small.png') no-repeat;
