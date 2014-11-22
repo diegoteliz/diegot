@@ -1,7 +1,8 @@
 === V 1.1 ===
 
 general {
-	- agregar Grunt al proyecto
+	- configurar tareas de Grunt
+	- hacer jshint y csslint
 	- refactorear js
 	- Página 404
 	- mensaje para browsers viejos
