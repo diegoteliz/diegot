@@ -9,7 +9,6 @@ general {
 }
 menu {
 	- pasar logo principal a svg
-	- rehacer menu mobile para que ocupe toda la pantalla (usar js si es necesario, pero que quede bien), agregar el mismo efecto de aparición que "options-wrapper" y probar agregarle un color diferente a cada ítem
 }
 
 === V 1.2 ===
