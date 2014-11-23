@@ -1070,6 +1070,35 @@ p {
 		width: 100%;
 	}
 
+	/* Contact */
+	.social-link {
+		line-height: 212px;
+	}
+	.social-link#linkedin {
+		background: #017FB2;
+		border-color: #017FB2;
+	}
+	.social-link#twitter {
+		background: #2AA9E0;
+		border-color: #2AA9E0;
+	}
+	.social-link#email {
+		background: #1CBB9B;
+		border-color: #1CBB9B;
+	}
+	.social-link#facebook {
+		background: #3B5998;
+		border-color: #3B5998;
+	}
+	.social-link#google-plus {
+		line-height: 75px;
+	}
+	.social-link#google-plus {
+		background: #D34231;
+		border-color: #D34231;
+		line-height: 215px;
+	}
+
 }
 
 @media screen and (max-width: 767px) {
