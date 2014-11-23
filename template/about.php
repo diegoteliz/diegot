@@ -7,7 +7,7 @@
 				<figcaption>
 					<h1>Diego J. Téliz</h1>
 					<h2><b>Web Developer</b></h2>
-					<div class="separator"></div>
+					<div class="separator-small"></div>
 				</figcaption>
 			</figure>
 			<p>I'm Diego, a <?php echo get_years_old( '1991-03-24' ) ?> years old web developer and designer with <?php echo get_experience_years( '2007' ) ?> years of experience. I also have experience in mobile application development, 3D modeling, animation, networking and virtualization. Currently live in Uruguay and work as Web UI Developer for <a href="http://www.nationalgeographic.com/" rel="nofollow" target="_blank">National Geographic</a> at <a href="http://www.globant.com/" rel="nofollow" target="_blank">Globant</a> and I manage a personal venture: <a href="http://aero.com.uy/" target="_blank">Aero Creative Studio</a>.</p>

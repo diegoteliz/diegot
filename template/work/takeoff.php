@@ -18,7 +18,7 @@
 	<footer>
 		<figure>
 			<div class="separator"></div>
-			<img class="footer-logo" src="/img/diegoteliz-logo-big.png" alt="Diego Téliz" />
+			<img class="footer-logo" src="/img/diegoteliz-logo-big.svg" alt="Diego Téliz" />
 		</figure>
 	</footer>
 </section>

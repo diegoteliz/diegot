@@ -9,9 +9,6 @@ general {
 	- Compatibilidad ie ?
 	- Testear y corregir comportamiento al hacer resize de la ventana (menu, alto de '#dinamic-content', etc.)
 }
-menu {
-	- pasar logo principal a svg
-}
 
 === V 1.2 ===
 

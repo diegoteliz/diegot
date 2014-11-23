@@ -57,7 +57,8 @@
 </section>
 <script type="text/javascript">
 	require([], function(){
-		$(document).attr({title:'Diego Téliz | Work'})
+		$(document).attr({title:'Diego Téliz | Work'});
+		$('#dinamic-content').css({height: '100%'});
 	});
 </script>
 <script type="text/javascript" src="/template/js/work.js"></script>

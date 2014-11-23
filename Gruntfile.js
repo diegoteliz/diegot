@@ -7,18 +7,6 @@ module.exports = function(grunt) {
 
         pkg: grunt.file.readJSON('package.json'),
 
-        uglify: {
-            // TODO: configure this section for 'deploy' task
-            /*options: {
-                mangle: false
-            },
-            my_target: {
-                files: {
-                    'dest/output.min.js': ['src/input.js']
-                }
-            }*/
-        },
-
         csslint: {
             strict: {
                 // TODO: configure CSSLint options and then add to watch task
@@ -129,7 +117,6 @@ module.exports = function(grunt) {
     });
 
     // Load plugin tasks
-    grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-contrib-csslint');
     grunt.loadNpmTasks('grunt-contrib-jshint');
     grunt.loadNpmTasks('grunt-contrib-watch');

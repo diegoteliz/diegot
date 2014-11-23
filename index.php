@@ -98,7 +98,7 @@
 			</nav>
 			<figure id="logo">
 				<a href="/">
-					<img src="/img/diegoteliz-logo.png" alt="DT" />
+					<img src="/img/diegoteliz-logo.svg" alt="DT" />
 				</a>
 			</figure>
 		</header>
