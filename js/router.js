@@ -12,23 +12,14 @@ define([
 			'*url'	: 'renderPage'
 		},
 		renderPage : function (url) {
-			
-			if(url){
-
-				var page = new PageView();
-				page.render(url);
-
-			} else{
-
-				var page = new PageView();
-				page.render('index');
-
-			};
+			var page = new PageView(),
+			target = (url) ? url : 'index';
+            page.render(target);
 		}
 	});
 
 	//Initialize the Router
-	var Router = new AppRouter;
+	var Router = new AppRouter();
 
 	// Navigation
 	$('a').not('.static').click(function(event) {

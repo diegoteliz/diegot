@@ -17,7 +17,7 @@ define([
 		event.preventDefault();
 		if ( $('#main-menu').height() >= 70 ) {
 			$('#main-nav').toggleClass('opened');
-		};
+		}
         if (isMobile()) {
             var navItemHeight = (winHeight -70) / 3;
             $('.main-nav-item a').css({lineHeight: navItemHeight+'px'});
@@ -39,8 +39,10 @@ define([
 
 	// Router initialization
 	var initialize = function(){
-		Router;
-	}
-	return { initialize: initialize };
+		Router.initialize();
+	};
+	return { 
+        initialize: initialize
+    };
 
 });

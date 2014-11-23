@@ -19,7 +19,7 @@
 </section>
 <script type="text/javascript">
 	require([], function(){
-		$(document).attr({title:'Diego Téliz | Contact'})
+		$(document).attr({title:'Diego Téliz | Contact'});
 	});
 </script>
 <script type="text/javascript" src="/template/js/contact.js"></script>

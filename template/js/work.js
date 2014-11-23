@@ -10,7 +10,7 @@ require([
     };
 
     if (isMobile() && ($('#dinamic-content section').attr('id') != 'about')) {
-        $('#dinamic-content').css({height: winHeight - 70})
+        $('#dinamic-content').css({height: winHeight - 70});
     }
 
 	$('#work-item-1 a figure .work-img').backstretch(['/img/work/takeoff.jpg'],{centeredY:false});

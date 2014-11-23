@@ -8,7 +8,7 @@ require([], function(){
     };
 
     if (isMobile() && ($('#dinamic-content section').attr('id') != 'about')) {
-        $('#dinamic-content').css({height: winHeight - 70})
+        $('#dinamic-content').css({height: winHeight - 70});
     }
 
 	function infoVerticalAlign(){

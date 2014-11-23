@@ -27,6 +27,6 @@
 </section>
 <script type="text/javascript">
 	require([], function(){
-		$(document).attr({title:'Diego Téliz | Punta Carretas Shopping'})
+		$(document).attr({title:'Diego Téliz | Punta Carretas Shopping'});
 	});
 </script>

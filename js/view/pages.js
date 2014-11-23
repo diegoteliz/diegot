@@ -36,16 +36,14 @@ define([
 							url: '/template/404.php'
 						})
 						.done(function(data) {
-							$(document).attr('title', 'Oops! | Diego Téliz')
-							
+							$(document).attr('title', 'Oops! | Diego Téliz');
 							el.html(data);
-
 						})
 						.fail(function() {
 							alert('an error occurred');
-						})
+						});
 					});
-				})
+				});
 			});
 		}
 
