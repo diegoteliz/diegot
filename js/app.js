@@ -37,6 +37,15 @@ define([
         $('#options-wrapper').removeClass('opened');
     });
 
+    $(window).resize(function(){
+        winHeight = $(window).height();
+        winWidth = $(window).width();
+
+        if(!isMobile()) {
+            $('.main-nav-item a').css({lineHeight: '1.8rem'});
+        }
+    });
+
 	// Router initialization
 	var initialize = function(){
 		Router.initialize();
