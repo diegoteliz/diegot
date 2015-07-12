@@ -16,12 +16,11 @@
 		<section id="skills">
 			<h1>Skills</h1>
 			<h2>"Yoda Master" Level</h2>
-			<p>HTML5 / CSS3 / JavaScript / PHP / jQuery / jQuery Mobile / Sass / Responsive Design / Fireworks / UI &amp; UX /  WordPress</p>
+			<p>HTML5 / CSS3 / JavaScript / WordPress / Backbone.js / jQuery / Sass / Responsive Design / Fireworks / UI &amp; UX </p>
 			<h2>"Obi-Wan" Level</h2>
-			<p>Backbone.js / Grunt / Handlebars / Bootstrap / MySQL / PhoneGap / Prestashop / Illustrator / Flash / ActionScript / Photoshop / SEO</p>
+			<p>PHP / MySQL / SEO / jQuery Mobile / Grunt / Handlebars / Nunjucks / PhoneGap / Illustrator / Flash / ActionScript / Photoshop</p>
 			<h2>"Anakin Skywalker" Level</h2>
-			<p>CoffeeScript / Node.js / Ghost CMS / KeystoneJS CMS / Angular / <br />
-				Game development with Construt and Unity</p>
+			<p>CoffeeScript / Node.js / Ghost CMS / KeystoneJS CMS / Angular / Prestashop / Game development with Construt and Unity</p>
 			<h2>Languages</h2>
 			<p>Spanish (native) / English (intermediate) / Portuguese (intermediate)</p>
 		</section>
