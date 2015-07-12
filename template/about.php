@@ -18,7 +18,7 @@
 			<h2>"Yoda Master" Level</h2>
 			<p>HTML5 / CSS3 / JavaScript / WordPress / Backbone.js / jQuery / Sass / Responsive Design / Fireworks / UI &amp; UX </p>
 			<h2>"Obi-Wan" Level</h2>
-			<p>PHP / MySQL / SEO / jQuery Mobile / Grunt / Handlebars / Nunjucks / PhoneGap / Illustrator / Flash / ActionScript / Photoshop</p>
+			<p>PHP / MySQL / SEO / jQuery Mobile / Git / Grunt / Handlebars / Nunjucks / Google Analytics / PhoneGap / Illustrator / Flash / ActionScript / Photoshop</p>
 			<h2>"Anakin Skywalker" Level</h2>
 			<p>CoffeeScript / Node.js / Ghost CMS / KeystoneJS CMS / Angular / Prestashop / Game development with Construt and Unity</p>
 			<h2>Languages</h2>
