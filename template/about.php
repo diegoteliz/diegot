@@ -27,18 +27,18 @@
 		<section id="brands">
 			<h1>I worked for</h1>
 			<ul id="brands-list"><!--
-				--><li><img src="/img/brand/1.png" alt="Visa" title="Visa" /></li><!--
-				--><li><img src="/img/brand/2.png" alt="DIRECTV" title="DIRECTV" /></li><!--
-				--><li><img src="/img/brand/3.png" alt="Petrobras" title="Petrobras" /></li><!--
+				--><li><img src="/img/brand/1.png" alt="National Geographic" title="National Geographic" /></li><!--
+				--><li><img src="/img/brand/2.png" alt="Visa" title="Visa" /></li><!--
+				--><li><img src="/img/brand/3.png" alt="DIRECTV" title="DIRECTV" /></li><!--
 				--><li><img src="/img/brand/4.png" alt="Autodesk" title="Autodesk" /></li><!--
-				--><li><img src="/img/brand/5.png" alt="Ancap" title="Ancap" /></li><!--
-				--><li><img src="/img/brand/6.png" alt="Citibank" title="Citibank" /></li><!--
+				--><li><img src="/img/brand/5.png" alt="GREY" title="GREY" /></li><!--
+				--><li><img src="/img/brand/6.png" alt="Petrobras" title="Petrobras" /></li><!--
 				--><li><img src="/img/brand/7.png" alt="Golf Channel" title="Golf Channel" /></li><!--
 				--><li><img src="/img/brand/8.png" alt="Movistar" title="Movistar" /></li><!--
-				--><li><img src="/img/brand/9.png" alt="Banco República" title="Banco República" /></li><!--
+				--><li><img src="/img/brand/9.png" alt="Ancap" title="Ancap" /></li><!--
 				--><li><img src="/img/brand/10.png" alt="HUB Brasil" title="HUB Brasil" /></li><!--
-				--><li><img src="/img/brand/11.png" alt="BPS" title="Banco de Previsión Social" /></li><!--
-				--><li><img src="/img/brand/12.png" alt="Petersen Museum" title="Petersen Museum" /></li><!---->
+				--><li><img src="/img/brand/11.png" alt="Petersen Museum" title="Petersen Museum" /></li><!--
+				--><li><img src="/img/brand/12.png" alt="Citibank" title="Citibank" /></li><!---->
 			</ul>
 		</section>
 	</article>
