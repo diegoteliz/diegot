@@ -11,7 +11,7 @@
 	<div id="contact-info">
 		<p>
 			<b>Diego J. Téliz</b> <br />
-			<b>Web Developer</b> <br />
+			<b>Sr. Web Developer</b> <br />
 			+598 95 938 477 <br />
 			<a href="mailto:contacto@diegoteliz.com">contacto@diegoteliz.com</a>
 		</p>

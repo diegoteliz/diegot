@@ -1,9 +1,11 @@
+<?php require_once 'include/functions.php'; ?>
+
 <!DOCTYPE html>
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
 		<title>Diego Téliz</title>
-		<meta name="description" content="Official Diego Téliz website" />
+		<meta name="description" content="Hi! I'm Diego Téliz, a <?php echo get_years_old( '1991-03-24' ) ?> years old Web Developer and Designer from Montevideo, Uruguay." />
 		<meta name="author" content="Diego Teliz" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<!--
