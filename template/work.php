@@ -44,12 +44,12 @@
 		</a>
 	</article>
 	<article id="work-item-5" class="work-item">
-		<a href="/work/lactld" class="work-link">
+		<a href="/work/national-geographic" class="work-link">
 			<figure>
 				<div class="work-img"></div>
 				<figcaption class="work-info">
-					<p class="work-name">LACTLD</p>
-					<p class="work-description">Institutional website</p>
+					<p class="work-name">National Geographic</p>
+					<p class="work-description">Traveler Photo Contest</p>
 				</figcaption>
 			</figure>
 		</a>

@@ -1,7 +1,7 @@
 <nav id="work-nav">
 	<ul>
 		<li><a href="/work" id="grid" class="work-nav-item icon-grid"></a></li>
-		<li><a href="/work/lactld" id="prev" class="work-nav-item icon-previous"></a></li>
+		<li><a href="/work/national-geographic" id="prev" class="work-nav-item icon-previous"></a></li>
 		<li><a href="/work/petersen" id="next" class="work-nav-item icon-next"></a></li>
 	</ul>
 </nav>
