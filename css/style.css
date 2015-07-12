@@ -829,12 +829,9 @@ p {
 	background: #3B5998;
 	border-color: #3B5998;
 }
-.social-link#google-plus {
-	line-height: 75px;
-}
-.social-link#google-plus:hover {
-	background: #D34231;
-	border-color: #D34231;
+.social-link#github:hover {
+	background: #6F2D84;
+	border-color: #6F2D84;
 	line-height: 215px;
 }
 
@@ -1090,12 +1087,9 @@ p {
 		background: #3B5998;
 		border-color: #3B5998;
 	}
-	.social-link#google-plus {
-		line-height: 75px;
-	}
-	.social-link#google-plus {
-		background: #D34231;
-		border-color: #D34231;
+	.social-link#github {
+		background: #6F2D84;
+		border-color: #6F2D84;
 		line-height: 215px;
 	}
 

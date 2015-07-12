@@ -5,7 +5,7 @@
 			<li><a href="http://twitter.com/diegoteliz" class="social-link icon-twitter" id="twitter" rel="nofollow" target="_blank"></a></li>
 			<li><a href="mailto:contacto@diegoteliz.com" class="social-link icon-email" id="email"></a></li>
 			<li><a href="https://www.facebook.com/diegoteliz" class="social-link icon-facebook" id="facebook" rel="nofollow" target="_blank"></a></li>
-			<li><a href="https://plus.google.com/+DiegoTeliz/" class="social-link icon-google" id="google-plus" rel="nofollow" target="_blank"></a></li>
+			<li><a href="https://github.com/diegoteliz" class="social-link icon-github" id="github" rel="nofollow" target="_blank"></a></li>
 		</ul>
 	</nav>
 	<div id="contact-info">
