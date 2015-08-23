@@ -16,7 +16,8 @@ define([
 			preloader.fadeIn(100);
 			el.fadeOut(200, function() {
 				$.ajax({
-					url: '/template/'+url+'.php'
+					url: '/template/'+url+'.php',
+					async: true
 				})
 				.done(function(data) {
 							
@@ -33,7 +34,8 @@ define([
 					preloader.fadeIn(200);
 					el.fadeOut(600, function() {
 						$.ajax({
-							url: '/template/404.php'
+							url: '/template/404.php',
+							async: true
 						})
 						.done(function(data) {
 							$(document).attr('title', 'Oops! | Diego Téliz');
