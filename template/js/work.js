@@ -14,9 +14,8 @@ require([
     }
 
 	$('#work-item-1 a figure .work-img').backstretch(['/img/work/takeoff.jpg'],{centeredY:false});
-	$('#work-item-2 a figure .work-img').backstretch('/img/work/petersen.jpg');
-	$('#work-item-3 a figure .work-img').backstretch(['/img/work/punta-carretas-shopping.jpg'],{centeredY:false});
-	$('#work-item-4 a figure .work-img').backstretch(['/img/work/escuela-plus.jpg'],{centeredY:false});
-	$('#work-item-5 a figure .work-img').backstretch('/img/work/national-geographic.jpg');
-
+	$('#work-item-2 a figure .work-img').backstretch(['/img/work/mistress.jpg'],{centeredY:false});
+    $('#work-item-3 a figure .work-img').backstretch('/img/work/national-geographic.jpg');
+    $('#work-item-4 a figure .work-img').backstretch('/img/work/wildebeest.jpg');
+	$('#work-item-5 a figure .work-img').backstretch(['/img/work/fmintheam.jpg'],{centeredY:false});
 });
