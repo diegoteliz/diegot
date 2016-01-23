@@ -38,7 +38,7 @@
 		-->
 		
 		<!-- Styles & Fonts-->
-		<link rel="stylesheet" type="text/css" href="/css/style.css" />
+		<link rel="stylesheet" type="text/css" href="/css/style.css?ver=1.1" />
 		<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed|Roboto|Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
 
 		<!-- Icons -->
@@ -104,7 +104,6 @@
 				</a>
 			</figure>
 		</header>
-		<div id="overlay"></div>
 		<div id="preloader"></div>
 		<div id="dinamic-content">
 			<!-- Here will be loaded HTML asynchronously -->

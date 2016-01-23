@@ -1,4 +1,5 @@
 require.config({
+    urlArgs : "bust=v1.1",
 	paths	: {
 		jquery 		: 'lib/jquery',
 		underscore	: 'lib/underscore',
