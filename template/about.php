@@ -20,7 +20,7 @@
 			<h2>"Obi-Wan" Level</h2>
 			<p>PHP / MySQL / SEO / jQuery Mobile / Git / Grunt / Handlebars / Nunjucks / Google Analytics / Illustrator / Photoshop / Flash / ActionScript</p>
 			<h2>"Anakin Skywalker" Level</h2>
-			<p>CoffeeScript / Node.js / Angular / React.js / Prestashop / PhoneGap / Game development with Construt and Unity</p>
+			<p>CoffeeScript / Node.js / Angular / React.js / SilverStripe / Prestashop / PhoneGap / Game development with Construt and Unity</p>
 			<h2>Languages</h2>
 			<p>Spanish (native) / English (intermediate) / Portuguese (intermediate)</p>
 		</section>
