@@ -57,6 +57,11 @@
 		<link rel="icon" type="image/png" href="/img/favicon/favicon-32x32.png" sizes="32x32">
 		<meta name="msapplication-TileColor" content="#00a9a4">
 		<meta name="msapplication-TileImage" content="/img/favicon/mstile-144x144.png">
+
+		<!-- Status bar -->
+		<meta name="theme-color" content="#006F6B">
+		<meta name="msapplication-navbutton-color" content="#006F6B">
+		<meta name="apple-mobile-web-app-status-bar-style" content="#006F6B">
 		
 		<!-- Scripts -->
 		<script data-main="/js/main" src="/js/lib/require.js"></script>
