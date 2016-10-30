@@ -13,3 +13,6 @@ RewriteRule ^/?$ "http\:\/\/diegoteliz\.com" [R=301,L]
     RewriteCond %{REQUEST_URI} !index
     RewriteRule (.*) index.php [L]
 </ifModule>
+
+# Redirections
+Redirect /footy https://goo.gl/photos/mxgWeWmBRtkELN7t7

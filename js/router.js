@@ -9,12 +9,20 @@ define([
 	var AppRouter = Backbone.Router.extend({
 		
 		routes: {
-			'*url'	: 'renderPage'
+			// External redirections
+			'footy'		: 'footyRedirect',
+			'footy/'	: 'footyRedirect',
+
+			// Website routes
+			'*url'		: 'renderPage'
 		},
 		renderPage : function (url) {
 			var page = new PageView(),
 			target = (url) ? url : 'index';
             page.render(target);
+		},
+		footyRedirect : function(url) {
+			window.location.href = "https://goo.gl/photos/mxgWeWmBRtkELN7t7";
 		}
 	});
 
