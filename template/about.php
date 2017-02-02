@@ -25,7 +25,7 @@
 			<p>Spanish (native) / English (intermediate) / Portuguese (intermediate)</p>
 		</section>
 		<section id="brands">
-			<h1>I've worked for</h1>
+			<h1>I've made cool stuff for</h1>
 			<ul id="brands-list"><!--
 				--><li><img src="/img/brand/1.png" alt="National Geographic" title="National Geographic" /></li><!--
 				--><li><img src="/img/brand/2.png" alt="Visa" title="Visa" /></li><!--
