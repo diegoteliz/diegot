@@ -36,7 +36,7 @@
 				--><li><img src="/img/brand/7.png" alt="Golf Channel" title="Golf Channel" /></li><!--
 				--><li><img src="/img/brand/8.png" alt="Movistar" title="Movistar" /></li><!--
 				--><li><img src="/img/brand/9.png" alt="Ancap" title="Ancap" /></li><!--
-				--><li><img src="/img/brand/10.png" alt="HUB Brasil" title="HUB Brasil" /></li><!--
+				--><li><img src="/img/brand/10.png" alt="Hulu" title="Hulu" /></li><!--
 				--><li><img src="/img/brand/11.png" alt="Petersen Museum" title="Petersen Museum" /></li><!--
 				--><li><img src="/img/brand/12.png" alt="Citibank" title="Citibank" /></li><!---->
 			</ul>
