@@ -33,7 +33,7 @@
 		Diego Teliz © 2014 - All Rights Reserved
 		https://diegoteliz.com
 
-		Code and Design by Diego Teliz - contacto@diegoteliz.com (@DiegoTeliz)
+		Code and Design by Diego Teliz - aloha@diegoteliz.com (@DiegoTeliz)
 
 		-->
 		
