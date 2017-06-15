@@ -38,7 +38,7 @@ define([
 							async: true
 						})
 						.done(function(data) {
-							$(document).attr('title', 'Oops! | Diego Téliz');
+							$(document).attr('title', 'Oops! | Diego Teliz');
 							el.html(data);
 						})
 						.fail(function() {

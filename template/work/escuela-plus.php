@@ -19,12 +19,12 @@
 	<footer>
 		<figure>
 			<div class="separator"></div>
-			<img class="footer-logo" src="/img/diegoteliz-logo-big.svg" alt="Diego Téliz" />
+			<img class="footer-logo" src="/img/diegoteliz-logo-big.svg" alt="Diego Teliz" />
 		</figure>
 	</footer>
 </section>
 <script type="text/javascript">
 	require([], function(){
-		$(document).attr({title:'Diego Téliz | Escuela Plus'});
+		$(document).attr({title:'Diego Teliz | Escuela Plus'});
 	});
 </script>

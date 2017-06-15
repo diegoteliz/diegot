@@ -19,12 +19,12 @@
 	<footer>
 		<figure>
 			<div class="separator"></div>
-			<img class="footer-logo" src="/img/diegoteliz-logo-big.svg" alt="Diego Téliz" />
+			<img class="footer-logo" src="/img/diegoteliz-logo-big.svg" alt="Diego Teliz" />
 		</figure>
 	</footer>
 </section>
 <script type="text/javascript">
 	require([], function(){
-		$(document).attr({title:'Diego Téliz | National Geographic Photo Contest'});
+		$(document).attr({title:'Diego Teliz | National Geographic Photo Contest'});
 	});
 </script>

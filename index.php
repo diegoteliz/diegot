@@ -4,8 +4,8 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
-		<title>Diego Téliz</title>
-		<meta name="description" content="Hi! I'm Diego Téliz, a <?php echo get_years_old( '1991-03-24' ) ?> years old Web Developer and Designer from Montevideo, Uruguay." />
+		<title>Diego Teliz</title>
+		<meta name="description" content="Hi! I'm Diego Teliz, a <?php echo get_years_old( '1991-03-24' ) ?> years old Web Developer and Designer from Montevideo, Uruguay." />
 		<meta name="author" content="Diego Teliz" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<!--
@@ -30,10 +30,10 @@
 
 
 
-		Diego Téliz © 2014 - All Rights Reserved
+		Diego Teliz © 2014 - All Rights Reserved
 		https://diegoteliz.com
 
-		Code and Design by Diego Téliz - contacto@diegoteliz.com (@DiegoTeliz)
+		Code and Design by Diego Teliz - contacto@diegoteliz.com (@DiegoTeliz)
 
 		-->
 		

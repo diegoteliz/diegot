@@ -10,7 +10,7 @@
 	</nav>
 	<div id="contact-info">
 		<p>
-			<b>Diego J. Téliz</b> <br />
+			<b>Diego J. Teliz</b> <br />
 			<b>Full-Stack Developer</b> <br />
 			+64 21 638 787 <br />
 			<a href="mailto:aloha@diegoteliz.com">aloha@diegoteliz.com</a>
@@ -19,7 +19,7 @@
 </section>
 <script type="text/javascript">
 	require([], function(){
-		$(document).attr({title:'Diego Téliz | Contact'});
+		$(document).attr({title:'Diego Teliz | Contact'});
 	});
 </script>
 <script type="text/javascript" src="/template/js/contact.js"></script>

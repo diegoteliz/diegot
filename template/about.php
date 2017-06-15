@@ -5,7 +5,7 @@
 			<figure id="diegoteliz">
 				<img src="/img/diego-teliz.jpg" alt="." />
 				<figcaption>
-					<h1>Diego J. Téliz</h1>
+					<h1>Diego J. Teliz</h1>
 					<h2><b>Full-Stack Developer</b></h2>
 					<div class="separator-small"></div>
 				</figcaption>
@@ -46,7 +46,7 @@
 
 <script type="text/javascript">
 	require([], function(){
-		$(document).attr({title:'Diego Téliz | About'});
+		$(document).attr({title:'Diego Teliz | About'});
 		$('#dinamic-content').css({height: 'auto'});
 	});
 </script>

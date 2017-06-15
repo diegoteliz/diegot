@@ -7,7 +7,7 @@
 </div>
 <script type="text/javascript">
 	require([], function(){
-		$(document).attr({title:'Diego Téliz'});
+		$(document).attr({title:'Diego Teliz'});
 	});
 </script>
 <script type="text/javascript" src="/template/js/index.js"></script>
