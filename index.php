@@ -31,7 +31,7 @@
 
 
 		Diego Téliz © 2014 - All Rights Reserved
-		http://diegoteliz.com
+		https://diegoteliz.com
 
 		Code and Design by Diego Téliz - contacto@diegoteliz.com (@DiegoTeliz)
 
@@ -39,7 +39,7 @@
 		
 		<!-- Styles & Fonts-->
 		<link rel="stylesheet" type="text/css" href="/css/style.css?ver=1.1" />
-		<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed|Roboto|Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Roboto+Condensed|Roboto|Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
 
 		<!-- Icons -->
 		<link rel="apple-touch-icon" sizes="57x57" href="/img/favicon/apple-touch-icon-57x57.png">
@@ -63,15 +63,6 @@
 		<meta name="msapplication-navbutton-color" content="#006F6B">
 		<meta name="apple-mobile-web-app-status-bar-style" content="#006F6B">
 		
-		<!-- Scripts -->
-		<script data-main="/js/main" src="/js/lib/require.js"></script>
-
-		<!-- Fixes -->
-		<!--[if lt IE 9]>
-			<script type="text/javascript" src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-			<script type="text/javascript" src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
-		<![endif]-->
-
 		<!-- Google Analytics -->
 		<script type="text/javascript">
 			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -113,5 +104,14 @@
 		<div id="dinamic-content">
 			<!-- Here will be loaded HTML asynchronously -->
 		</div>
+
+		<!-- Scripts -->
+		<script data-main="/js/main" src="/js/lib/require.js"></script>
+
+		<!-- Fixes -->
+		<!--[if lt IE 9]>
+			<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+			<script type="text/javascript" src="https://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+		<![endif]-->
 	</body>
 </html>

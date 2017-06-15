@@ -1,9 +1,10 @@
 RewriteEngine on
 
+RewriteCond %{HTTPS} off
 RewriteCond %{HTTP_HOST} ^diegoteliz\.tk$ [OR]
 RewriteCond %{HTTP_HOST} ^www\.diegoteliz\.com$ [OR]
 RewriteCond %{HTTP_HOST} ^www\.diegoteliz\.tk$
-RewriteRule ^/?$ "http\:\/\/diegoteliz\.com" [R=301,L]
+RewriteRule ^/?$ "https\:\/\/diegoteliz\.com" [R=301,L]
 
 # html5 pushstate (history) support:
 <ifModule mod_rewrite.c>
