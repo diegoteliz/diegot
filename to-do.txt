@@ -20,7 +20,6 @@ general {
 menu {
 	- menu items > hover
 	- menu behavior on click > hide
-	 
 }
 work single {
 	- imágenes en otros contextos (ej: en iMac)
