@@ -5,9 +5,9 @@
 		<div class="line tab1"><span class="code-string">"make_history"</span></div>
 	<div class="line">];</div>
 </div>
-<script type="text/javascript">
+<script>
 	require([], function(){
 		$(document).attr({title:'Diego Teliz'});
 	});
 </script>
-<script type="text/javascript" src="/template/js/index.js"></script>
+<script src="/template/js/index.js"></script>

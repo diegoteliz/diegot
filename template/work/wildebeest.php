@@ -23,7 +23,7 @@
 		</figure>
 	</footer>
 </section>
-<script type="text/javascript">
+<script>
 	require([], function(){
 		$(document).attr({title:'Diego Teliz | Wildebeest'});
 	});

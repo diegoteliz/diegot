@@ -55,10 +55,10 @@
 		</a>
 	</article>
 </section>
-<script type="text/javascript">
+<script>
 	require([], function(){
 		$(document).attr({title:'Diego Teliz | Work'});
 		$('#dinamic-content').css({height: '100%'});
 	});
 </script>
-<script type="text/javascript" src="/template/js/work.js"></script>
+<script src="/template/js/work.js"></script>

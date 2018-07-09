@@ -17,9 +17,9 @@
 		</p>
 	</div>
 </section>
-<script type="text/javascript">
+<script>
 	require([], function(){
 		$(document).attr({title:'Diego Teliz | Contact'});
 	});
 </script>
-<script type="text/javascript" src="/template/js/contact.js"></script>
+<script src="/template/js/contact.js"></script>

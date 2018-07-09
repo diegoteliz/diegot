@@ -44,7 +44,7 @@
 	</article>
 </section>
 
-<script type="text/javascript">
+<script>
 	require([], function(){
 		$(document).attr({title:'Diego Teliz | About'});
 		$('#dinamic-content').css({height: 'auto'});
