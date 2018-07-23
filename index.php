@@ -39,7 +39,7 @@
 		
 		<!-- Styles & Fonts-->
 		<link rel="stylesheet" type="text/css" href="/css/style.css?ver=1.1" />
-		<link href='https://fonts.googleapis.com/css?family=Roboto+Condensed|Roboto|Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Roboto+Condensed%7CRoboto%7COpen+Sans:400,300,600' rel='stylesheet' type='text/css'>
 
 		<!-- Icons -->
 		<link rel="apple-touch-icon" sizes="57x57" href="/img/favicon/apple-touch-icon-57x57.png">
