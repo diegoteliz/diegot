@@ -12,7 +12,6 @@
 		<p>
 			<b>Diego J. Teliz</b> <br />
 			<b>Full-Stack Developer</b> <br />
-			+64 21 638 787 <br />
 			<a href="mailto:aloha@diegoteliz.com">aloha@diegoteliz.com</a>
 		</p>
 	</div>
