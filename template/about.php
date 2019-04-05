@@ -10,7 +10,7 @@
 					<div class="separator-small"></div>
 				</figcaption>
 			</figure>
-			<p>I'm Diego, a <?php echo get_years_old( '1991-03-24' ) ?> years old web developer and designer with <?php echo get_experience_years( '2008' ) ?> years of experience. I also have experience in mobile application development, 3D modeling, animation, networking and virtualization. I was born in Uruguay and I'm currently living in Auckland, New Zealand and working as Full-Stack Developer.</p>
+			<p>I'm Diego, a <?php echo get_years_old( '1991-03-24' ) ?> years old web developer and designer with <?php echo get_experience_years( '2008' ) ?> years of experience. I also have experience in mobile application development, 3D modeling, animation, networking and virtualization. I was born in Uruguay and I'm currently living in Auckland, New Zealand and working as Tech Lead.</p>
 			<p>When I'm working I give much importance to quality and details. I'm always researching and learning new technologies. My goal in every project is make a functional, user-friendly and innovative product. I love what I do and try to exceed myself everyday.</p>
 		</section>
 		<section id="skills">
