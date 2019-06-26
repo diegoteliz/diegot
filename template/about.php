@@ -13,6 +13,7 @@
 			<p>I'm Diego, a <?php echo get_years_old( '1991-03-24' ) ?> years old web developer and designer with <?php echo get_experience_years( '2008' ) ?> years of experience. I also have experience in mobile application development, 3D modeling, animation, networking and virtualization. I was born in Uruguay and I'm currently living in Auckland, New Zealand and working as Tech Lead.</p>
 			<p>When I'm working I give much importance to quality and details. I'm always researching and learning new technologies. My goal in every project is make a functional, user-friendly and innovative product. I love what I do and try to exceed myself everyday.</p>
 		</section>
+		<?php /* Outdated ?>
 		<section id="skills">
 			<h1>Skill set</h1>
 			<h2>"Yoda Master" Level</h2>
@@ -24,8 +25,9 @@
 			<h2>Languages</h2>
 			<p>Spanish (native) / English (intermediate) / Portuguese (intermediate)</p>
 		</section>
+		<?php */ ?>
 		<section id="brands">
-			<h1>I've made cool stuff for</h1>
+			<h1>I've made some cool stuff for</h1>
 			<ul id="brands-list"><!--
 				--><li><img src="/img/brand/1.png" alt="National Geographic" title="National Geographic" /></li><!--
 				--><li><img src="/img/brand/2.png" alt="Visa" title="Visa" /></li><!--
