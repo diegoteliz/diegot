@@ -71,6 +71,7 @@
 			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
 			ga('create', 'UA-36939365-1', 'diegoteliz.com');
+			ga('require', 'GTM-5Q73Q8L');
 			ga('send', 'pageview');
 		</script>
 	</head>
