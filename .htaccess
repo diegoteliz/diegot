@@ -16,4 +16,4 @@ RewriteRule ^/?$ "https\:\/\/diegoteliz\.com" [R=301,L]
 </ifModule>
 
 # Redirections
-Redirect /footy https://goo.gl/photos/mxgWeWmBRtkELN7t7
+Redirect /footy https://www.youtube.com/playlist?list=PLXa4ugQRENTrK6u2hXQ-xbeo9uMn5OMqE
