@@ -94,8 +94,8 @@
 				<a href="#" id="options-btn" class="static"><span>Social links</span></a>
 				<div id="options-wrapper">
 					<ul id="options">
-						<li><a href="http://www.linkedin.com/in/diegoteliz" class="static icon-linkedin both-views" rel="nofollow" target="_blank">/diegoteliz</a></li>
-						<li><a href="http://twitter.com/diegoteliz" class="static icon-twitter both-views" rel="nofollow" target="_blank">@DiegoTeliz</a></li>
+						<li><a href="https://www.linkedin.com/in/diegoteliz" class="static icon-linkedin both-views" rel="nofollow" target="_blank">/diegoteliz</a></li>
+						<li><a href="https://twitter.com/diegoteliz" class="static icon-twitter both-views" rel="nofollow" target="_blank">@DiegoTeliz</a></li>
 						<li><a href="https://www.facebook.com/diegoteliz" class="static icon-facebook both-views" rel="nofollow" target="_blank">/diegoteliz</a></li>
 						<li><a href="https://plus.google.com/+DiegoTeliz/" class="static icon-google" rel="nofollow" target="_blank">+DiegoTeliz</a></li>
 						<li><a href="https://github.com/diegoteliz/" class="static icon-github" rel="nofollow" target="_blank">/diegoteliz</a></li>
