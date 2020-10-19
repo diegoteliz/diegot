@@ -22,7 +22,8 @@ define([
             page.render(target);
 		},
 		footyRedirect : function(url) {
-			window.location.href = "https://goo.gl/photos/mxgWeWmBRtkELN7t7";
+			// window.location.href = "https://goo.gl/photos/mxgWeWmBRtkELN7t7"; // OLD URL
+			window.location.href = "https://www.youtube.com/playlist?list=PLXa4ugQRENTrK6u2hXQ-xbeo9uMn5OMqE";
 		}
 	});
 
